@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Salman — Front-end Developer</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <meta name="color-scheme" content="dark">
+</head>
+<body class="bg-black text-white">
+
+  <div class="container mx-auto px-4 sm:px-6 py-8">
+
+    <!-- HEADER -->
+    <header class="flex items-center justify-between py-4 reveal">
+      <div class="flex items-center gap-3">
+        <div class="w-10 h-10 rounded-full flex items-center justify-center logo-bg font-bold text-sm sm:text-lg">S</div>
+        <div>
+          <div class="text-base sm:text-lg font-bold">Salman</div>
+          <div class="text-xs sm:text-sm muted">Front-end Developer</div>
+        </div>
+      </div>
+
+      <!-- Desktop Nav -->
+      <nav class="hidden md:flex text-sm gap-4 muted">
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+    </header>
+
+    <!-- HERO -->
+    <main class="grid grid-cols-1 md:grid-cols-2 gap-6 items-center mt-6">
+      <section class="reveal">
+        <h1 class="hero-title text-2xl sm:text-3xl md:text-4xl font-bold">Hi, I'm Salman 👋</h1>
+        <p class="lead text-sm sm:text-base md:text-lg mt-2">
+          I build clean and responsive front-end interfaces using HTML, CSS and JavaScript. I design UI/UX and use AI tools & prompt experiments to accelerate prototyping and improve designs.
+        </p>
+
+        <div class="mt-4 flex flex-col sm:flex-row gap-3">
+          <a href="#projects" class="btn btn-primary text-center w-full sm:w-auto">View Work</a>
+          <a href="#contact" class="btn btn-ghost text-center w-full sm:w-auto">Contact</a>
+        </div>
+
+        <div class="mt-4 small muted text-sm">
+          <div><strong>Location:</strong> Pakistan</div>
+          <p>
+            Email: 
+            <a href="mailto:salmantariq11786@gmail.com" id="email-link" class="text-red-500 hover:text-red-400 font-semibold">
+              salmantariq11786@gmail.com
+            </a>
+          </p>
+        </div>
+      </section>
+
+      <aside class="flex justify-center reveal mt-6 md:mt-0">
+        <div class="profile-container">
+          <img src="assets/WhatsApp Image 2025-10-08 at 08.06.20_175f600c.jpg" alt="Salman" 
+               class="profile-photo w-36 h-36 sm:w-44 sm:h-44 md:w-48 md:h-48">
+        </div>
+      </aside>
+    </main>
+
+    <!-- SKILLS -->
+    <section id="skills" class="mt-12 reveal">
+      <h2 class="section-title text-lg sm:text-xl font-semibold">Skills & Tools</h2>
+      <div class="skills-grid mt-4 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
+        <div class="card">HTML5</div>
+        <div class="card">CSS3</div>
+        <div class="card">JavaScript</div>
+        <div class="card">Tailwind CSS</div>
+        <div class="card">Bootstrap</div>
+        <div class="card">Responsive Design</div>
+        <div class="card">Figma (UI)</div>
+        <div class="card">AI Tools & Prompting</div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="mt-12 reveal">
+      <h2 class="section-title text-lg sm:text-xl font-semibold">Featured Projects</h2>
+      <div class="projects-grid mt-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+
+        
+        <!-- Project 1 -->
+<article class="project card p-3">
+  <div class="project-hero" style="background-image:url('assets/images (2).jpeg');">
+    
+  </div>
+  <h3 class="mt-1 font-semibold text-white text-sm sm:text-base">Medcallz Healthcare Platform</h3>
+  <p class="muted text-xs sm:text-sm mt-1">
+    Worked with the Medcallz team to build a responsive healthcare consultation platform.
+  </p>
+  <p class="tag mt-1 text-xs">HTML · CSS · JavaScript · API Integration</p>
+  <div class="flex flex-col sm:flex-row gap-2 mt-2">
+    <a href="https://www.medcallz.com.au/" target="_blank"
+       class="bg-red-500 hover:bg-red-600 text-white px-2 py-1 rounded-md text-xs sm:text-sm text-center w-full sm:w-auto">
+       🔗 Live Preview
+    </a>
+  </div>
+</article>
+
+
+        <article class="project card p-3">
+      <div class="project-hero" style="background-image:url('assets/why-is-it-called-a-semi-truck.jpg');">
+        
+      </div>
+      <h3 class="mt-1 font-semibold text-white text-sm sm:text-base">Truck Dispatching Website</h3>
+      <p class="muted text-xs sm:text-sm mt-1">
+        Dispatch management dashboard for logistics: job lists, driver UI and dispatch forms.
+      </p>
+      <p class="tag mt-1 text-xs">HTML · CSS · JavaScript</p>
+      <div class="flex flex-col sm:flex-row gap-2 mt-2">
+        <a href="https://urbansxpress-ux.github.io/-ProfitLane-Logistics/" target="_blank"
+           class="bg-red-500 hover:bg-red-600 text-white px-2 py-1 rounded-md text-xs sm:text-sm text-center w-full sm:w-auto">
+           🔗 Live Preview
+        </a>
+      </div>
+    </article>
+
+    <!-- Project 3 -->
+    <article class="project card p-3">
+      <div class="project-hero" style="background-image:url('assets/trading.jpeg');">
+        Invamnt App
+      </div>
+      <h3 class="mt-1 font-semibold text-white text-sm sm:text-base">Invamnt App</h3>
+      <p class="muted text-xs sm:text-sm mt-1">
+        Investment tracking UI focused on clear data visualization, charts and AI-assisted insights.
+      </p>
+      <p class="tag mt-1 text-xs">HTML · CSS · JavaScript</p>
+      <div class="flex flex-col sm:flex-row gap-2 mt-2">
+        <a href="https://crypto-ref-nexus.lovable.app" target="_blank"
+           class="bg-red-500 hover:bg-red-600 text-white px-2 py-1 rounded-md text-xs sm:text-sm text-center w-full sm:w-auto">
+           🔗 Live Preview
+        </a>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="mt-12 reveal">
+      <h2 class="section-title text-center text-lg sm:text-xl font-semibold">Get in Touch</h2>
+      <p class="muted text-center text-sm sm:text-base mt-1">Let's collaborate or discuss a project idea!</p>
+      <div class="mt-4 flex flex-col items-center gap-2">
+        <p class="text-gray-300 text-sm sm:text-base">
+          Email: 
+          <a href="mailto:salmantariq11786@gmail.com" id="email-link-2" class="text-red-500 hover:text-red-400 font-semibold">
+            salmantariq11786@gmail.com
+          </a>
+        </p>
+        <a class="btn btn-primary w-full sm:w-auto text-center" href="https://wa.me/923004819242" target="_blank" rel="noreferrer">
+          WhatsApp: +92 300 4819242
+        </a>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="mt-12 text-center small muted text-xs sm:text-sm">
+      © <span id="year"></span> Salman — Front-end Developer ❤️
+    </footer>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
